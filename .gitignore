@@ -1,0 +1,64 @@
+# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+Assets/StreamingAssets/Steadycam/
+
+# User-specific settings
+UserSettings/
+*.swp
+*.swo
+*.tmp
+
+# Visual Studio / MonoDevelop project files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# AR-specific generated or temporary files
+*.apk
+*.aab
+*.ipa
+*.xcworkspace
+*.xcodeproj
+
+# Build cache files for ARCore or ARKit
+BuildSettings.asset
+Assets/Plugins/Android/libs/
+Assets/Plugins/iOS/Frameworks/
+Assets/StreamingAssets/UnityARKitPlugin/
+
+# Unity Crash Reports
+sys_crash/
+UnityCrashReports/
+
+# Built application files
+*.apk
+*.aab
+*.app
+*.ipa
+
+# Unity Cloud Build
+[Uu]ser[Oo]verrides/
+
+# Packages
+Packages/com.unity.xr.arcore/
+Packages/com.unity.xr.arkit/
+
+# Ignore node_modules if using npm for AR project dependencies
+node_modules/
