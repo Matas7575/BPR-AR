@@ -48,12 +48,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Database\DatabaseConnection.cs" />
     <Compile Include="Assets\Scripts\AutoBuildAndPlaceShelf.cs" />
-    <Compile Include="Assets\Scripts\ShelfBoundaryVisualizer.cs" />
     <Compile Include="Assets\Scripts\ShelfData.cs" />
     <Compile Include="Assets\Scripts\Database\DatabaseConfig.cs" />
-    <Compile Include="Assets\Scripts\ShelfManager.cs" />
+    <Compile Include="Assets\Scripts\ShelfSectionAnalyzer.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\Scripts\DynamicColliderAdjuster.cs" />
     <None Include="Assets\Data\shelfData.json" />
     <None Include="packages.config" />
     <Reference Include="DotNetEnv, Version=3.1.1.0, Culture=neutral, processorArchitecture=MSIL">
@@ -1245,6 +1243,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Data\ShelfData2.json" />
+    <Content Include="Assets\Objects\Test.obj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

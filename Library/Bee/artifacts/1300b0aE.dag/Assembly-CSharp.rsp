@@ -515,10 +515,8 @@
 "Assets/Scripts/AutoBuildAndPlaceShelf.cs"
 "Assets/Scripts/Database/DatabaseConfig.cs"
 "Assets/Scripts/Database/DatabaseConnection.cs"
-"Assets/Scripts/DynamicColliderAdjuster.cs"
-"Assets/Scripts/ShelfBoundaryVisualizer.cs"
 "Assets/Scripts/ShelfData.cs"
-"Assets/Scripts/ShelfManager.cs"
+"Assets/Scripts/ShelfSectionAnalyzer.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic
